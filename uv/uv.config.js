@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: 'https://uv.ycrgv.org/',
+    bare: 'https://successful-headscarf-clam.cyclic.app/bare/',
     encodeUrl: Ultraviolet.codec.plain.encode,
     decodeUrl: Ultraviolet.codec.plain.decode,
     handler: '/uv/uv.handler.js',
