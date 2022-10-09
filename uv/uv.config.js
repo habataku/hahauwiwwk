@@ -1,8 +1,8 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: 'https://successful-headscarf-clam.cyclic.app/bare/',
-    encodeUrl: Ultraviolet.codec.plain.encode,
-    decodeUrl: Ultraviolet.codec.plain.decode,
+    bare: 'https://kkik-heieirk.koyeb.app/bare/',
+    encodeUrl: Ultraviolet.codec.xor.encode,
+    decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
     bundle: '/uv/uv.bundle.js',
     config: '/uv/uv.config.js',
