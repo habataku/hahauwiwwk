@@ -36,8 +36,8 @@ app.destroyParticles = function() {
 document.querySelector('#open-nav').addEventListener('click', app.openNav);
 document.querySelector('#close-nav').addEventListener('click', app.closeNav);
 
-document.title = localStorage.getItem('incog||title') || '広島学院中学校・高等学校';
-window.icon = document.querySelector('#favicon');
+document.title = localStorage.getItem('incog||title') || '大学受験の予備校・塾 河合塾';
+window.icon = document.querySelector('https://www.kawai-juku.ac.jp/common/images/apple-touch-icon.png');
 
 icon.href = localStorage.getItem('incog||icon') || './index.svg';
 
