@@ -36,7 +36,7 @@ app.destroyParticles = function() {
 document.querySelector('#open-nav').addEventListener('click', app.openNav);
 document.querySelector('#close-nav').addEventListener('click', app.closeNav);
 
-document.title = localStorage.getItem('incog||title') || '大学受験の予備校・塾 河合塾';
+document.title = localStorage.getItem('incog||title') || 'きせいかいひ';
 window.icon = document.querySelector('#favicon');
 
 icon.href = localStorage.getItem('incog||icon') || './index.svg';
